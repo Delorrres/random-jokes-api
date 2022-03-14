@@ -20,7 +20,7 @@ jokes_db ={
 
 @app.route("/")
 def hello():
-    return "you are that bitch, keep going"
+    return "Hi I'm Delores, and this is my code!"
 
 @app.route("/jokes/")
 def list_jokes():
